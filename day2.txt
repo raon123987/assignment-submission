@@ -1,0 +1,38 @@
+import java.io.*;
+
+class employee
+{
+String name="Chandan";
+String city="Pune";
+String age="22";
+
+String name1="Prajwal";
+String city1="Mumbai";
+String age1="23";
+
+void display()
+{
+System.out.println("the name is "+name);
+System.out.println("the city is "+city);
+System.out.println("the age is "+age);
+}
+
+void display1()
+{
+System.out.println("the name is "+name1);
+System.out.println("the city is "+city1);
+System.out.println("the age is "+age1);
+}
+}
+
+class mainemployee
+{
+public static void main(String args[])
+{
+employee e=new employee();
+e.display();
+
+employee e1=new employee();
+e1.display1();
+}
+}
